@@ -4,9 +4,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     index: './src/js/index.js',
-    background: './src/js/background.js',
-    scroll: './src/js/scroll.js',
-    carousel: './src/js/carousel.js',
   },
   output: {
     filename: 'js/[name].[hash:8].js',
@@ -65,6 +62,13 @@ module.exports = {
         type: 'asset/resource',
       },
       {
+        test: /\.(woff|woff2)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name].[hash:8][ext][query]',
+        },
+      },
+      {
         test: /\.mp4|webm$/i,
         type: 'asset/resource',
         generator: {
@@ -92,10 +96,10 @@ module.exports = {
       minify: false,
     }),
     new HtmlWebpackPlugin({
-      template: './src/pages/modules-example.pug',
+      template: './src/pages/content-creation-and-production.pug',
       inject: true,
-      chunks: ['index', 'background', 'scroll', 'carousel'],
-      filename: 'modules-example.html',
+      chunks: ['index'],
+      filename: 'content-creation-and-production.html',
       minify: false,
     }),
   ],

@@ -2,19 +2,13 @@
 
 $black: #000000;
 $white: #ffffff;
-$dark-grey: #222222;
-$light-grey: #f8f8f8;
-$yellow: #fff155;
-$beige: #fdf9f4;
-$blue: #2372f6;
 
 $main-color: $black;
-$second-color: $blue;
+$second-color: $white;
 
 // fonts family
 
-$main-font: 'Univers LT W05_55 Roman', sans-serif;
-$second-font: 'UniversLTPro-65Bold', sans-serif;
+$main-font: 'Nimbus-Sans-D-OT-Bold', sans-serif;
 
 // fonts size
 
@@ -22,26 +16,15 @@ $global-font-size: 16px;
 $global-font-size-s: 10px;
 $global-font-size-m: 14px;
 $global-font-size-l: 40px;
-
-// button
-
-$button-font: $main-font;
-$button-font-size: 12px;
-$button-line-height: 1.4;
-$button-padding: 10px 40px;
-$button-margin: 30px 0;
-$button-color: $black;
-// $button-border-radius: 20px;
-$button-border-radius: 0;
+$global-font-size-xl: 60px;
 
 $global-line-hight: 1.4;
 $global-font-weight: normal;
-$global-letter-spacing: normal;
+$global-letter-spacing: -0.5px;
 
 // margins and padding
 
-$margin-desktop: 100px;
-$margin-mobile: 60px;
+$padding-desktop: 40px;
 $padding-mobile: 15px;
 
 // breakpoints
@@ -55,5 +38,4 @@ $breakpoint-small-mobile-width: 375px;
 
 // max & min main width
 
-$main-max-width: 1100px;
 $main-min-width: 320px;

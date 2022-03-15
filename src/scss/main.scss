@@ -1,19 +1,11 @@
 @import '_normalize';
 
 @import '_variables';
-@import '_mixins';
 @import '_fonts';
 
-@import 'modules/_header';
-@import 'modules/_background';
-@import 'modules/_video-gallery';
-@import 'modules/_carousel';
-@import 'modules/_scroll-carousel';
-@import 'modules/_scroll-carousel-with-arrows';
-@import 'modules/_button';
-@import 'modules/_gallery';
-@import 'modules/_animation-on-scroll';
-@import 'modules/_product';
+@import 'modules/header';
+@import 'modules/navigation';
+@import 'modules/page-header';
 
 .main {
   color: $main-color;
@@ -22,16 +14,14 @@
   line-height: $global-line-hight;
   font-weight: $global-font-weight;
   letter-spacing: $global-letter-spacing;
+  text-align: left;
 
   min-height: 100vh;
   min-width: $main-min-width;
-  max-width: $main-max-width;
-  margin: 0 auto;
   overflow: hidden;
 
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 
   box-sizing: border-box;
