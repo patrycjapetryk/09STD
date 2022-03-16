@@ -3,23 +3,24 @@
 
 .page-header {
   width: 100%;
+  height: $navigation-height;
   position: fixed;
   left: 0;
   top: $header-height;
+  z-index: 10;
+  border-bottom: 1px solid $main-color;
+  background-color: $white;
+  display: flex;
+  align-items: center;
 
   &__title {
     @include main-padding;
     width: 100%;
-    height: $navigation-height;
     color: $main-color;
     font-size: $global-font-size-m;
     font-weight: normal;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
-    margin-top: 2px;
-    border-bottom: 1px solid $main-color;
-    display: flex;
-    align-items: center;
   }
 }

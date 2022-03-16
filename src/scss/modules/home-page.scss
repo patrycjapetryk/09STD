@@ -5,12 +5,13 @@
   width: 100%;
   min-height: 100%;
   position: fixed;
-  top: ($navigation-height + 1) * 6 + $header-height + 5;
+  top: $navigation-height * 6 + $header-height + 12;
   left: 0;
+  z-index: 10;
   display: flex;
   justify-content: center;
 
-  @media (min-width: $breakpoint-mobile-width) {
+  @media (min-width: $breakpoint-laptop-width) {
     top: 0;
     left: 25%;
     width: 60%;
