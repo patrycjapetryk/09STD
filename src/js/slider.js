@@ -4,7 +4,7 @@ const imagesLength = images.length;
 const galleryDescriptions = document.querySelectorAll(
   '.home-page__description--js',
 );
-
+const queryWidth = window.matchMedia('(min-width: 1024px)');
 let countImages = 0;
 
 const changeImagesOnMousemove = (event) => {
@@ -26,4 +26,16 @@ const changeImagesOnMousemove = (event) => {
   }
 };
 
-slider.addEventListener('mousemove', (event) => changeImagesOnMousemove(event));
+const changeImagesOnMousemoveEvent = (event) => {
+  changeImagesOnMousemove(event);
+};
+
+const mediaQuery = () => {
+  if (queryWidth.matches) {
+    slider.addEventListener('mousemove', changeImagesOnMousemoveEvent);
+  } else {
+    slider.removeEventListener('mousemove', changeImagesOnMousemoveEvent);
+  }
+};
+window.addEventListener('load', mediaQuery);
+window.addEventListener('resize', mediaQuery);
