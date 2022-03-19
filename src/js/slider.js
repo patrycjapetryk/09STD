@@ -26,15 +26,11 @@ const changeImagesOnMousemove = (event) => {
   }
 };
 
-const changeImagesOnMousemoveEvent = (event) => {
-  changeImagesOnMousemove(event);
-};
-
 const mediaQuery = () => {
   if (queryWidth.matches) {
-    slider.addEventListener('mousemove', changeImagesOnMousemoveEvent);
+    slider.addEventListener('mousemove', changeImagesOnMousemove);
   } else {
-    slider.removeEventListener('mousemove', changeImagesOnMousemoveEvent);
+    slider.removeEventListener('mousemove', changeImagesOnMousemove);
   }
 };
 window.addEventListener('load', mediaQuery);
