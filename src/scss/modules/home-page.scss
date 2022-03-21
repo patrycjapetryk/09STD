@@ -33,13 +33,14 @@
   }
 
   &__description {
-    font-size: $global-font-size-s;
+    font-size: $global-font-size-ms;
     text-transform: uppercase;
     display: none;
     position: fixed;
     left: 40px;
     bottom: 8px;
     opacity: 0;
+    pointer-events: none;
 
     &:nth-of-type(1) {
       opacity: 1;
