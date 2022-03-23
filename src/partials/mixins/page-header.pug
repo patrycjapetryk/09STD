@@ -1,3 +1,4 @@
-mixin page-header(title='...')
-  .page-header
-      h2.page-header__title= title
+mixin page-header(title= '', href)
+  .page-header(class!= attributes.class)
+      h2.page-header__title
+        a.page-header__link(href= href)= title

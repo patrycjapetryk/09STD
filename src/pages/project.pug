@@ -1,0 +1,27 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title PROJECT 1 | 09STD
+  meta(name='description' content='')
+main.main
+  include ../partials/includes/header.pug
+  
+  include ../partials/mixins/page-header.pug
+  +page-header('Content creation & production', '/content-creation-and-production.html')(class= "page-header--gray")
+  +page-header('YSL 2022')(class= "page-header--project")
+
+  .project 
+    .project__description
+      p.project__paragraph THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING 
+
+    .project__container
+      .project__item
+        img.project__image(src=require('../assets/images/photo-2.jpg') alt='')
+      .project__item.project__item--vertical
+        img.project__image(src=require('../assets/images/photo-1.jpg') alt='')
+      .project__item
+        img.project__image(src=require('../assets/images/photo-2.jpg') alt='')
+      .project__item.project__item--vertical
+        img.project__image(src=require('../assets/images/photo-1.jpg') alt='')
+      

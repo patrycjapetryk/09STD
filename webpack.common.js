@@ -110,5 +110,12 @@ module.exports = {
       filename: 'contact.html',
       minify: false,
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/project.pug',
+      inject: true,
+      chunks: ['index'],
+      filename: 'project.html',
+      minify: false,
+    }),
   ],
 };
