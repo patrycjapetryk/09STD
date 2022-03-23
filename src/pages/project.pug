@@ -4,14 +4,14 @@ head
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   title PROJECT 1 | 09STD
   meta(name='description' content='')
-main.main
+.app
   include ../partials/includes/header.pug
   
   include ../partials/mixins/page-header.pug
   +page-header('Content creation & production', '/content-creation-and-production.html')(class= "page-header--gray")
   +page-header('YSL 2022')(class= "page-header--project")
 
-  .project 
+  main.project 
     .project__description
       p.project__paragraph THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING 
 

@@ -3,13 +3,17 @@
 
 .navigation {
   width: 100%;
-  position: fixed;
-  left: 0;
-  top: $header-height;
-  z-index: 10;
-  background-color: $white;
-  margin: 0;
-  padding: 0;
+
+  &__list {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: $header-height;
+    z-index: 10;
+    background-color: $white;
+    margin: 0;
+    padding: 0;
+  }
 
   &__item {
     width: 100%;
