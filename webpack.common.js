@@ -103,5 +103,12 @@ module.exports = {
       filename: 'content-creation-and-production.html',
       minify: false,
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/contact.pug',
+      inject: true,
+      chunks: ['index'],
+      filename: 'contact.html',
+      minify: false,
+    }),
   ],
 };

@@ -1,0 +1,32 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title CONTACT | 09STD
+  meta(name='description' content='')
+main.main
+  include ../partials/includes/header.pug
+  
+  include ../partials/mixins/page-header.pug
+  +page-header('Contact')
+  
+  .article
+    a.article__mail(href="mailto:info@09STD.com") info@09STD.com
+    p.article__paragraph IT IS A LONG ESTABLISHED FACT THAT A READER WILL BE DISTRACTED BY THE READABLE CONTENT OF A PAGE WHEN LOOKING AT ITS LAYOUT. THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS.
+    
+    section.article__download
+      h3.article__title Download portfolio
+      a.article__link(href="#") CONTENT CREATION & PRODUCTION
+      a.article__link(href="#") INFLUENCERS
+      a.article__link(href="#") PR EVENT
+      a.article__link(href="#") GRAPHIC DESIGN
+      a.article__link(href="#") SOCIAL MEDIA
+
+    section.article__social-media
+      h3.article__title Social media
+      a.article__social-media-link(href="#") Instagram
+      a.article__social-media-link(href="#") Facebook
+      a.article__social-media-link(href="#") Whatsapp
+      a.article__social-media-link(href="#") Twitter
+   
+  
