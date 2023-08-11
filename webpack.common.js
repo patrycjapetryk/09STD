@@ -112,10 +112,10 @@ module.exports = {
       minify: false,
     }),
     new HtmlWebpackPlugin({
-      template: './src/pages/content-creation-and-production.pug',
+      template: './src/pages/content-creation.pug',
       inject: true,
       chunks: ['index'],
-      filename: 'content-creation-and-production.html',
+      filename: 'content-creation.html',
       minify: false,
     }),
     new HtmlWebpackPlugin({
