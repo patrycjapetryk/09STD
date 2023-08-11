@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-// const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -79,16 +79,17 @@ module.exports = {
     ],
   },
   plugins: [
-    // new CopyWebpackPlugin({
-    //   patterns: [
-    //     {
-    //       from: 'public',
-    //       globOptions: {
-    //         ignore: ['**/*.DS_Store'],
-    //       },
-    //     },
-    //   ],
-    // }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: './src/data',
+          to: 'data',
+          globOptions: {
+            ignore: ['**/*.DS_Store'],
+          },
+        },
+      ],
+    }),
     new HtmlWebpackPlugin({
       template: './src/pages/index.pug',
       inject: 'body',
