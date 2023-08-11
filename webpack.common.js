@@ -112,10 +112,10 @@ module.exports = {
       minify: false,
     }),
     new HtmlWebpackPlugin({
-      template: './src/pages/content-creation.pug',
+      template: './src/pages/public-relations-and-events.pug',
       inject: true,
       chunks: ['index'],
-      filename: 'content-creation.html',
+      filename: 'public-relations-and-events.html',
       minify: false,
     }),
     new HtmlWebpackPlugin({
