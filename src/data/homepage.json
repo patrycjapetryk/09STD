@@ -1,6 +1,36 @@
 {
-  "name": "Molecule Man",
-  "age": 29,
-  "secretIdentity": "Dan Jukes",
-  "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+  "sliderData": [
+    {
+      "image": "./images/1.jpg",
+      "description": "Constent YSL 2020"
+    },
+    {
+      "image": "./images/2.jpg",
+      "description": " YVES SAINT LAURENT 2022"
+    },
+    {
+      "image": "./images/3.jpg",
+      "description": "Constent YSL 2020"
+    },
+    {
+      "image": "./images/4.jpg",
+      "description": " YVES SAINT LAURENT 2022"
+    },
+    {
+      "image": "./images/5.jpg",
+      "description": "Constent YSL 2020"
+    },
+    {
+      "image": "./images/6.jpg",
+      "description": " YVES SAINT LAURENT 2022"
+    },
+    {
+      "image": "./images/7.jpg",
+      "description": "Constent YSL 2020"
+    },
+    {
+      "image": "./images/8.jpg",
+      "description": " YVES SAINT LAURENT 2022"
+    }
+  ]
 }

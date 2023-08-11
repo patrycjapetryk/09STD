@@ -88,6 +88,20 @@ module.exports = {
             ignore: ['**/*.DS_Store'],
           },
         },
+        {
+          from: './src/assets/images',
+          to: 'images',
+          globOptions: {
+            ignore: ['**/*.DS_Store'],
+          },
+        },
+        {
+          from: './src/assets/video',
+          to: 'video',
+          globOptions: {
+            ignore: ['**/*.DS_Store'],
+          },
+        },
       ],
     }),
     new HtmlWebpackPlugin({
