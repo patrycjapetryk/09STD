@@ -3,13 +3,13 @@
 @import '_variables';
 @import '_fonts';
 
-@import 'modules/header';
-@import 'modules/navigation';
-@import 'modules/page-header';
-@import 'modules/home-page';
-@import 'modules/gallery';
-@import 'modules/project';
-@import 'modules/article';
+@import 'modules/_header';
+@import 'modules/_navigation';
+@import 'modules/_page-header';
+@import 'modules/_home-page';
+@import 'modules/_gallery';
+@import 'modules/_project';
+@import 'modules/_article';
 
 .app {
   color: $main-color;
