@@ -1,47 +1,51 @@
 const params = new URLSearchParams(location.search);
-params.set('id', 2);
 
-window.history.replaceState({}, '', `${location.pathname}?${params}`);
+if (!params.get('id')) {
+  params.set('id', 1);
+  window.history.replaceState({}, '', `${location.pathname}?${params}`);
+}
 
-// const pageUrl = window.location.href;
-// const pagesNames = [
-//   'public-relations-and-events',
-//   'influencers',
-//   'graphic-design',
-//   'social-media',
-// ];
+const projectId = params.get('id');
+const pageUrl = window.location.href;
+const pagesNames = [
+  'public-relations-and-events',
+  'influencers',
+  'graphic-design',
+  'social-media',
+];
 
-// let pageSlug = '';
-// let dataUrl = '';
+let dataUrl = '';
 
-// for (let pageName of pagesNames) {
-//   if (pageUrl.includes(pageName)) {
-//     pageSlug = pageName;
-//     dataUrl = `../data/${pageSlug}.json`;
-//     break;
-//   }
-// }
+for (let pageName of pagesNames) {
+  if (pageUrl.includes(pageName)) {
+    dataUrl = `../data/${pageName}.json`;
+    break;
+  }
+}
 
-// fetch(dataUrl)
-//   .then((res) => res.json())
-//   .then((res) => {
-//     const data = res;
-//     const { description, projects } = data;
-//     const paragraph = document.querySelector('.gallery__paragraph--js');
-//     const gallery = document.querySelector('.gallery__container--js');
+fetch(dataUrl)
+  .then((res) => res.json())
+  .then((res) => {
+    const data = res.projects;
+    const { title, description, photos } = data[projectId - 1];
+    const header = document.querySelector('.page-header--js a');
+    const paragraph = document.querySelector('.project__paragraph--js');
+    const project = document.querySelector('.project__container--js');
 
-//     paragraph.innerHTML = description;
+    header.innerHTML = title;
+    paragraph.innerHTML = description;
 
-//     for (let project of projects) {
-//       const { image, title } = project;
-//       const template = `
-//       <a class="gallery__item" href="/${pageSlug}/project/">
-//         <img class="gallery__image" src="${image}" alt=""/>
-//         <h3 class="gallery__name">${title}</h3>
-//       </a>
-//       `;
+    for (const photo of photos) {
+      const { image, size } = photo;
+      const template = `
+      <div class="project__item ${
+        size === 'large' || 'project__item--vertical'
+      }">
+        <img class="project__image" src="${image}" alt=""/>
+      </div>
+      `;
 
-//       gallery.innerHTML += template;
-//     }
-//   })
-//   .catch((err) => console.log(err));
+      project.innerHTML += template;
+    }
+  })
+  .catch((err) => console.log(err));

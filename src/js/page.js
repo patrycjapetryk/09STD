@@ -27,10 +27,13 @@ fetch(dataUrl)
 
     paragraph.innerHTML = description;
 
-    for (let project of projects) {
+    let projectIndex = 0;
+
+    for (const project of projects) {
+      projectIndex++;
       const { image, title } = project;
       const template = `
-      <a class="gallery__item" href="/${pageSlug}/project">
+      <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
         <img class="gallery__image" src="${image}" alt=""/>
         <h3 class="gallery__name">${title}</h3>
       </a>
