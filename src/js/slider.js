@@ -1,7 +1,7 @@
 fetch('../data/homepage.json')
   .then((res) => res.json())
   .then((res) => {
-    const data = res.sliderData;
+    const data = res.projects;
     const slider = document.querySelector('.home-page--js');
 
     for (let slide of data) {
