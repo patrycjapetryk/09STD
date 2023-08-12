@@ -1,4 +1,17 @@
-fetch('../data/public-relations-and-events.json')
+const url = window.location.href;
+let pageUrl = '';
+
+if (url.includes('public-relations-and-events')) {
+  pageUrl = '../data/public-relations-and-events.json';
+} else if (url.includes('influencers')) {
+  pageUrl = '../data/influencers.json';
+} else if (url.includes('graphic-design')) {
+  pageUrl = '../data/graphic-design.json';
+} else if (url.includes('social-media')) {
+  pageUrl = '../data/social-media.json';
+}
+
+fetch(pageUrl)
   .then((res) => res.json())
   .then((res) => {
     const data = res;

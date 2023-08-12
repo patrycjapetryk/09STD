@@ -120,6 +120,27 @@ module.exports = {
       minify: false,
     }),
     new HtmlWebpackPlugin({
+      template: './src/pages/influencers.pug',
+      inject: true,
+      chunks: ['index', 'page'],
+      filename: 'influencers.html',
+      minify: false,
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/graphic-design.pug',
+      inject: true,
+      chunks: ['index', 'page'],
+      filename: 'graphic-design.html',
+      minify: false,
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/social-media.pug',
+      inject: true,
+      chunks: ['index', 'page'],
+      filename: 'social-media.html',
+      minify: false,
+    }),
+    new HtmlWebpackPlugin({
       template: './src/pages/contact.pug',
       inject: true,
       chunks: ['index'],
