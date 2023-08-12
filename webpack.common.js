@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     index: './src/js/index.js',
     slider: './src/js/slider.js',
+    page: './src/js/page.js',
   },
   output: {
     filename: 'js/[name].[hash:8].js',
@@ -114,7 +115,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/pages/public-relations-and-events.pug',
       inject: true,
-      chunks: ['index'],
+      chunks: ['index', 'page'],
       filename: 'public-relations-and-events.html',
       minify: false,
     }),
