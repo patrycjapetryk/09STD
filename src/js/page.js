@@ -1,17 +1,23 @@
-const url = window.location.href;
-let pageUrl = '';
+const pageUrl = window.location.href;
+const pagesNames = [
+  'public-relations-and-events',
+  'influencers',
+  'graphic-design',
+  'social-media',
+];
 
-if (url.includes('public-relations-and-events')) {
-  pageUrl = '../data/public-relations-and-events.json';
-} else if (url.includes('influencers')) {
-  pageUrl = '../data/influencers.json';
-} else if (url.includes('graphic-design')) {
-  pageUrl = '../data/graphic-design.json';
-} else if (url.includes('social-media')) {
-  pageUrl = '../data/social-media.json';
+let pageSlug = '';
+let dataUrl = '';
+
+for (let pageName of pagesNames) {
+  if (pageUrl.includes(pageName)) {
+    pageSlug = pageName;
+    dataUrl = `../data/${pageSlug}.json`;
+    break;
+  }
 }
 
-fetch(pageUrl)
+fetch(dataUrl)
   .then((res) => res.json())
   .then((res) => {
     const data = res;
@@ -24,7 +30,7 @@ fetch(pageUrl)
     for (let project of projects) {
       const { image, title } = project;
       const template = `
-      <a class="gallery__item" href="/project.html">
+      <a class="gallery__item" href="/${pageSlug}/project">
         <img class="gallery__image" src="${image}" alt=""/>
         <h3 class="gallery__name">${title}</h3>
       </a>
