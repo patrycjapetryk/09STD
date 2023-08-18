@@ -1,6 +1,5 @@
 {
   "extends": ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
-  "plugins": ["prettier"],
   "rules": {
     "quotes": [
       "error",
