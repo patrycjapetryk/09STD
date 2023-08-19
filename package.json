@@ -46,11 +46,11 @@
   },
   "lint-staged": {
     "src/**/*.{js,json}": [
-      "prettier --write --ignore-unknown",
+      "prettier --write",
       "eslint"
     ],
     "src/**/*": [
-      "prettier --write --ignore-unknown"
+      "prettier --write"
     ]
   }
 }
