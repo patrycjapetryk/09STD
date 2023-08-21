@@ -1,11 +1,3 @@
-const params = new URLSearchParams(location.search);
-
-if (!params.get('id')) {
-  params.set('id', '1');
-  window.history.replaceState({}, '', `${location.pathname}?${params}`);
-}
-
-const projectId = params.get('id');
 const projectPagesNames = [
   'public-relations-and-events',
   'influencers',
@@ -14,6 +6,14 @@ const projectPagesNames = [
 ];
 
 let projectDataUrl: string;
+const params = new URLSearchParams(location.search);
+
+if (!params.get('id')) {
+  params.set('id', '1');
+  window.history.replaceState({}, '', `${location.pathname}?${params}`);
+}
+
+const projectId = params.get('id');
 
 for (let pageName of projectPagesNames) {
   if (window.location.href.includes(pageName)) {
@@ -26,7 +26,17 @@ fetch(projectDataUrl)
   .then((res) => res.json())
   .then((res) => {
     const data = res.projects;
-    const { title, description, photos } = data[Number(projectId) - 1];
+
+    let currentProject = data[Number(projectId) - 1];
+
+    if (!currentProject) {
+      params.set('id', `${data.length}`);
+      window.history.replaceState({}, '', `${location.pathname}?${params}`);
+      currentProject = data[Number(data.length - 1)];
+    }
+
+    const { title, description, photos } = currentProject;
+
     const header = document.querySelector('.page-header--js a');
     const paragraph = document.querySelector('.project__paragraph--js');
     const project = document.querySelector('.project__container--js');
