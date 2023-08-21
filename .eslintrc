@@ -5,11 +5,6 @@
     "prettier"
   ],
   "rules": {
-    "quotes": [
-      "error",
-      "single",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
-    ],
     "no-console": 0
   },
   "env": {
