@@ -2,7 +2,7 @@ fetch('../data/homepage.json')
   .then((res) => res.json())
   .then((res) => {
     const data = res.projects;
-    const slider = document.querySelector('.home-page--js');
+    const slider: HTMLElement = document.querySelector('.home-page--js');
 
     for (let slide of data) {
       const { image, description } = slide;
@@ -14,16 +14,18 @@ fetch('../data/homepage.json')
       slider.innerHTML += template;
     }
 
-    const images = document.querySelectorAll('.home-page__image--js');
+    const images = document.querySelectorAll<HTMLElement>(
+      '.home-page__image--js',
+    );
     const imagesLength = images.length;
-    const galleryDescriptions = document.querySelectorAll(
+    const galleryDescriptions = document.querySelectorAll<HTMLElement>(
       '.home-page__description--js',
     );
     const queryWidth = window.matchMedia('(min-width: 1024px)');
-    let changeImagesOnTimeoutTimer;
+    let changeImagesOnTimeoutTimer: ReturnType<typeof setTimeout>;
     let countImages = 0;
 
-    const changeImagesOnMousemove = (event) => {
+    const changeImagesOnMousemove = (event: MouseEvent) => {
       const cursorX = event.clientX;
       const partWidth = slider.getBoundingClientRect().width / imagesLength;
       const sliderLeft = slider.getBoundingClientRect().left;
@@ -31,23 +33,27 @@ fetch('../data/homepage.json')
       for (let i = 0; i < imagesLength; i++) {
         const partMinimum = partWidth * i + sliderLeft;
         const partMaximum = partWidth * (i + 1) + sliderLeft;
+        const image = images[i];
+        const galleryDescription = galleryDescriptions[i];
 
         if (cursorX >= partMinimum && cursorX < partMaximum) {
-          images[i].style.opacity = 1;
-          galleryDescriptions[i].style.opacity = 1;
+          image.style.opacity = '1';
+          galleryDescription.style.opacity = '1';
         } else {
-          images[i].style.opacity = 0;
-          galleryDescriptions[i].style.opacity = 0;
+          image.style.opacity = '0';
+          galleryDescription.style.opacity = '0';
         }
       }
     };
 
     const changeImagesOnTimeout = () => {
       for (let i = 0; i < imagesLength; i++) {
+        const image = images[i];
+
         if (i == countImages) {
-          images[i].style.opacity = 1;
+          image.style.opacity = '1';
         } else {
-          images[i].style.opacity = 0;
+          image.style.opacity = '0';
         }
       }
       if (countImages < imagesLength - 1) {

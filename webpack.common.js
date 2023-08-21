@@ -3,10 +3,13 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/js/index.js',
-    slider: './src/js/slider.js',
-    page: './src/js/page.js',
-    project: './src/js/project.js',
+    index: './src/js/index.ts',
+    slider: './src/js/slider.ts',
+    page: './src/js/page.ts',
+    project: './src/js/project.ts',
+  },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
     filename: 'js/[name].[hash:8].js',
@@ -15,6 +18,11 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
       {
         test: [/.js$/],
         exclude: /(node_modules)/,

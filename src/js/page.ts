@@ -1,23 +1,22 @@
-const pageUrl = window.location.href;
-const pagesNames = [
+const pagePagesNames = [
   'public-relations-and-events',
   'influencers',
   'graphic-design',
   'social-media',
 ];
 
-let pageSlug = '';
-let dataUrl = '';
+let pageSlug: string;
+let pageDataUrl: string;
 
-for (let pageName of pagesNames) {
-  if (pageUrl.includes(pageName)) {
+for (let pageName of pagePagesNames) {
+  if (window.location.href.includes(pageName)) {
     pageSlug = pageName;
-    dataUrl = `../data/${pageSlug}.json`;
+    pageDataUrl = `../data/${pageSlug}.json`;
     break;
   }
 }
 
-fetch(dataUrl)
+fetch(pageDataUrl)
   .then((res) => res.json())
   .then((res) => {
     const data = res;

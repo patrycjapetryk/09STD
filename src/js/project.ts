@@ -1,33 +1,32 @@
 const params = new URLSearchParams(location.search);
 
 if (!params.get('id')) {
-  params.set('id', 1);
+  params.set('id', '1');
   window.history.replaceState({}, '', `${location.pathname}?${params}`);
 }
 
 const projectId = params.get('id');
-const pageUrl = window.location.href;
-const pagesNames = [
+const projectPagesNames = [
   'public-relations-and-events',
   'influencers',
   'graphic-design',
   'social-media',
 ];
 
-let dataUrl = '';
+let projectDataUrl: string;
 
-for (let pageName of pagesNames) {
-  if (pageUrl.includes(pageName)) {
-    dataUrl = `../data/${pageName}.json`;
+for (let pageName of projectPagesNames) {
+  if (window.location.href.includes(pageName)) {
+    projectDataUrl = `../data/${pageName}.json`;
     break;
   }
 }
 
-fetch(dataUrl)
+fetch(projectDataUrl)
   .then((res) => res.json())
   .then((res) => {
     const data = res.projects;
-    const { title, description, photos } = data[projectId - 1];
+    const { title, description, photos } = data[Number(projectId) - 1];
     const header = document.querySelector('.page-header--js a');
     const paragraph = document.querySelector('.project__paragraph--js');
     const project = document.querySelector('.project__container--js');
