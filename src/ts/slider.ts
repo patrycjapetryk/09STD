@@ -75,7 +75,7 @@ fetch('../data/homepage.json')
       }
     };
 
-    window.addEventListener('load', mediaQuery);
+    mediaQuery();
     window.addEventListener('resize', mediaQuery);
   })
   .catch((err) => console.log(err));
