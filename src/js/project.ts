@@ -1,4 +1,4 @@
-const projectPagesNames = [
+const projectPagesNames: string[] = [
   'public-relations-and-events',
   'influencers',
   'graphic-design',
@@ -13,9 +13,9 @@ if (!params.get('id')) {
   window.history.replaceState({}, '', `${location.pathname}?${params}`);
 }
 
-const projectId = params.get('id');
+const projectId: string = params.get('id');
 
-for (let pageName of projectPagesNames) {
+for (const pageName of projectPagesNames) {
   if (window.location.href.includes(pageName)) {
     projectDataUrl = `../data/${pageName}.json`;
     break;

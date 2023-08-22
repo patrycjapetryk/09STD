@@ -1,4 +1,4 @@
-const pagePagesNames = [
+const pagePagesNames: string[] = [
   'public-relations-and-events',
   'influencers',
   'graphic-design',
@@ -8,7 +8,7 @@ const pagePagesNames = [
 let pageSlug: string;
 let pageDataUrl: string;
 
-for (let pageName of pagePagesNames) {
+for (const pageName of pagePagesNames) {
   if (window.location.href.includes(pageName)) {
     pageSlug = pageName;
     pageDataUrl = `../data/${pageSlug}.json`;

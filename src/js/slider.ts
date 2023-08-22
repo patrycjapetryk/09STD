@@ -4,7 +4,7 @@ fetch('../data/homepage.json')
     const data = res.projects;
     const slider: HTMLElement = document.querySelector('.home-page--js');
 
-    for (let slide of data) {
+    for (const slide of data) {
       const { image, description } = slide;
       const template = `
       <img class="home-page__image home-page__image--js" src=${image} alt=""/>
