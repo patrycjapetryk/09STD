@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+dist
+*.zip
+
+# Ignore all PUG files:
+**/*.pug
+
+# Ignore all images files:
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.gif

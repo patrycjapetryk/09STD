@@ -45,6 +45,8 @@
   &__image {
     width: 100%;
     height: auto;
+    aspect-ratio: 800/960;
+    object-fit: contain;
     display: block;
   }
 

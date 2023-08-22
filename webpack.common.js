@@ -153,5 +153,12 @@ module.exports = {
       filename: 'graphic-design/project/index.html',
       minify: false,
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/public-relations-and-events/project/index.pug',
+      inject: true,
+      chunks: ['index', 'project'],
+      filename: 'public-relations-and-events/project/index.html',
+      minify: false,
+    }),
   ],
 };

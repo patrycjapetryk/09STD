@@ -7,10 +7,22 @@
       "title": "SOCIAL MEDIA",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     },
     {
@@ -18,10 +30,22 @@
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     },
     {
@@ -29,10 +53,22 @@
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     },
     {
@@ -40,10 +76,22 @@
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     },
     {
@@ -51,10 +99,22 @@
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     },
     {
@@ -62,10 +122,22 @@
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     },
     {
@@ -73,10 +145,22 @@
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     },
     {
@@ -84,10 +168,22 @@
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     },
     {
@@ -95,10 +191,22 @@
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
       "photos": [
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg",
-        "/images/public-relations-and-events/photo-2.jpg",
-        "/images/public-relations-and-events/photo-1.jpg"
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
       ]
     }
   ]
