@@ -16,7 +16,7 @@ if (!params.get('id')) {
 const projectId: string = params.get('id');
 
 for (const pageName of projectPagesNames) {
-  if (window.location.href.includes(pageName)) {
+  if (location.pathname.includes(pageName)) {
     projectDataUrl = `../data/${pageName}.json`;
     break;
   }
