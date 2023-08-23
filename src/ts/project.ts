@@ -20,7 +20,7 @@ console.log(location.pathname);
 
 for (const pageName of projectPagesNames) {
   if (window.location.href.includes(pageName)) {
-    projectDataUrl = `../data/${pageName}.json`;
+    projectDataUrl = `../../data/${pageName}.json`;
     break;
   }
 }
