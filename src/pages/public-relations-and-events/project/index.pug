@@ -4,17 +4,18 @@ html(lang='en')
     include ../../../partials/includes/metadata.pug
     title PUBLIC RELATIONS & EVENTS | 09STD
     meta(name='description' content='')
-  .app
-    include ../../../partials/includes/header.pug
-    
-    include ../../../partials/mixins/page-header.pug
-    +page-header('Public relations & events', '/public-relations-and-events/')(class= "page-header--gray")
-    +page-header('')(class= "page-header--project page-header--js")
+  body
+    .app
+      include ../../../partials/includes/header.pug
+      
+      include ../../../partials/mixins/page-header.pug
+      +page-header('Public relations & events', '/public-relations-and-events/')(class= "page-header--gray")
+      +page-header('')(class= "page-header--project page-header--js")
 
-    main.project 
-      .project__description
-        p.project__paragraph.project__paragraph--js 
+      main.project 
+        .project__description
+          p.project__paragraph.project__paragraph--js 
 
-      .project__container.project__container--js
+        .project__container.project__container--js
 
       
