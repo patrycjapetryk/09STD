@@ -1,20 +1,20 @@
 doctype html
 html(lang='en')
-head
-  include ../../../partials/includes/metadata.pug
-  title GRAPHIC DESIGN | 09STD
-  meta(name='description' content='')
-.app
-  include ../../../partials/includes/header.pug
-  
-  include ../../../partials/mixins/page-header.pug
-  +page-header('Graphic design', '/graphic-design/')(class= "page-header--gray")
-  +page-header('')(class= "page-header--project page-header--js")
+  head
+    include ../../../partials/includes/metadata.pug
+    title GRAPHIC DESIGN | 09STD
+    meta(name='description' content='')
+  .app
+    include ../../../partials/includes/header.pug
+    
+    include ../../../partials/mixins/page-header.pug
+    +page-header('Graphic design', '/graphic-design/')(class= "page-header--gray")
+    +page-header('')(class= "page-header--project page-header--js")
 
-  main.project 
-    .project__description
-      p.project__paragraph.project__paragraph--js 
+    main.project 
+      .project__description
+        p.project__paragraph.project__paragraph--js 
 
-    .project__container.project__container--js
+      .project__container.project__container--js
 
       
