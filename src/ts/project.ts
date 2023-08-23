@@ -15,10 +15,11 @@ if (!params.get('id')) {
 
 const projectId: string = params.get('id');
 
-alert(location.pathname);
+console.log(window.location.href);
+console.log(location.pathname);
 
 for (const pageName of projectPagesNames) {
-  if (location.pathname.includes(pageName)) {
+  if (window.location.href.includes(pageName)) {
     projectDataUrl = `../data/${pageName}.json`;
     break;
   }
