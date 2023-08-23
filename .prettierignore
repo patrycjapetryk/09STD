@@ -11,3 +11,4 @@ dist
 **/*.jpeg
 **/*.png
 **/*.gif
+**/*.svg

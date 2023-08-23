@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    include ../partials/includes/metadata.pug
+    title 404 | 09STD
+    meta(name='description' content='')
+  body
+    .app
+      include ../partials/includes/header.pug
+      
+      include ../partials/mixins/page-header.pug
+      +page-header('Contact', '/contact/')
+      
+      main.article.article--center
+        picture
+          source(srcset=require("../assets/images/404-mobi.svg"), media='(orientation: portrait)')
+          img.article__error-image(src=require("../assets/images/404-desktop.svg") alt="")
+        a.article__back-link(href="/") BACK TO MAIN SITE
+        

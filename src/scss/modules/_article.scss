@@ -6,6 +6,10 @@
   margin-top: $header-height + $navigation-height;
   @include main-padding;
 
+  &--center {
+    align-items: center;
+  }
+
   &__paragraph {
     width: 60%;
     font-size: $global-font-size;
@@ -91,5 +95,29 @@
         text-align: left;
       }
     }
+  }
+
+  &__error-image {
+    display: block;
+    max-width: 90%;
+    margin: -10px auto 0;
+
+    @media (min-width: $breakpoint-mobile-width) {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+    @media (min-width: $breakpoint-tablet-width) {
+      margin: 20px auto;
+    }
+  }
+
+  &__back-link {
+    display: block;
+    font-size: $global-font-size-m;
+    font-weight: normal;
+    color: $main-color;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
   }
 }

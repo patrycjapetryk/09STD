@@ -154,6 +154,13 @@ module.exports = {
       minify: false,
     }),
     new HtmlWebpackPlugin({
+      template: './src/pages/404.pug',
+      inject: 'body',
+      chunks: ['index'],
+      filename: '404.html',
+      minify: false,
+    }),
+    new HtmlWebpackPlugin({
       template: './src/pages/graphic-design/project/index.pug',
       inject: 'body',
       chunks: ['index', 'project'],
