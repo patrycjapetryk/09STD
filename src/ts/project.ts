@@ -15,6 +15,8 @@ if (!params.get('id')) {
 
 const projectId: string = params.get('id');
 
+alert(location.pathname);
+
 for (const pageName of projectPagesNames) {
   if (location.pathname.includes(pageName)) {
     projectDataUrl = `../data/${pageName}.json`;
