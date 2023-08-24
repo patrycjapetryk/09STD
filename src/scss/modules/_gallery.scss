@@ -50,6 +50,24 @@
     display: block;
   }
 
+  &__video-container {
+    width: 100%;
+    position: relative;
+    aspect-ratio: 800/963;
+    overflow: hidden;
+  }
+
+  &__video {
+    width: 102%;
+    height: auto;
+    position: absolute;
+    left: -1%;
+    top: -1%;
+    aspect-ratio: 800/963;
+    object-fit: contain;
+    display: block;
+  }
+
   &__name {
     font-size: $global-font-size-s;
     padding-left: 1px;

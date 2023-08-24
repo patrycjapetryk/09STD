@@ -31,12 +31,26 @@ fetch(pageDataUrl)
     for (const project of projects) {
       projectIndex++;
       const { image, title } = project;
-      const template = `
+      let template: string;
+      if (image.includes('mp4')) {
+        template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
-        <img class="gallery__image" src="${image}" alt=""/>
+        <div class="gallery__video-container">
+          <video muted autoplay loop class="gallery__video">
+            <source src="${image}" type="video/mp4" />
+          </video>
+        </div>
         <h3 class="gallery__name">${title}</h3>
       </a>
       `;
+      } else {
+        template = `
+      <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
+        <img class="gallery__image" src="${image}" alt="${title}"/>
+        <h3 class="gallery__name">${title}</h3>
+      </a>
+      `;
+      }
 
       gallery.innerHTML += template;
     }

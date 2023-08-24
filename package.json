@@ -46,6 +46,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "memfs": "^4.2.1",
     "normalize.css": "^8.0.1"
   },
   "lint-staged": {
