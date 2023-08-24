@@ -71,6 +71,7 @@
   &__name {
     font-size: $global-font-size-s;
     padding-left: 1px;
+    text-transform: uppercase;
   }
 
   &__description {
@@ -86,6 +87,7 @@
 
     @media (min-width: $breakpoint-laptop-width) {
       width: 30%;
+      height: auto;
     }
   }
 
@@ -93,12 +95,39 @@
     padding: 18px 30% 0 0;
     margin: 0;
     font-size: $global-font-size;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-weight: normal;
     color: $main-color;
 
     @media (min-width: $breakpoint-laptop-width) {
       padding: 30px 30% 0 0;
     }
+  }
+
+  &__contact {
+    display: none;
+
+    @media (min-width: $breakpoint-laptop-width) {
+      display: block;
+    }
+  }
+
+  &__contact-title {
+    padding: 18px 30% 0 0;
+    margin: 0;
+    font-size: $global-font-size-m;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: $main-color;
+
+    @media (min-width: $breakpoint-laptop-width) {
+      padding: 30px 30% 9px 0;
+    }
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+    font-size: $global-font-size;
   }
 }
