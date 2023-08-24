@@ -3,7 +3,7 @@
   "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
   "projects": [
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/1.jpg",
       "title": "PROJECT 1",
       "description": "1THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/photo-1.jpg",
       "title": "YVES SAINT LAURENT 2022",
       "description": "2THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/3.jpg",
       "title": "YVES SAINT LAURENT 2022",
       "description": "3THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
       "photos": [
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/4.jpg",
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/photo-1.jpg",
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
       "photos": [
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/6.jpg",
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/7.jpg",
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
       "photos": [
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/8.jpg",
       "title": "YVES SAINT LAURENT 2022",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING",
       "photos": [
@@ -187,7 +187,222 @@
       ]
     },
     {
-      "image": "/images/public-relations-and-events/photo-1.jpg",
+      "image": "/images/graphic-design/9.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+    {
+      "image": "/images/graphic-design/10.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/photo-1.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/photo-1.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/13.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/14.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/15.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/16.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/17.jpg",
+      "title": "YVES SAINT LAURENT 2022 LAST",
+      "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-2.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/photo-1.jpg",
+          "size": "small"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/18.jpg",
       "title": "YVES SAINT LAURENT 2022 LAST",
       "description": "THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING ",
       "photos": [
