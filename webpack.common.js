@@ -14,6 +14,7 @@ module.exports = {
   output: {
     filename: 'js/[name].[hash:8].js',
     path: __dirname + '/dist/',
+    publicPath: '/',
     assetModuleFilename: 'images/[name].[hash:8][ext][query]',
   },
   module: {
