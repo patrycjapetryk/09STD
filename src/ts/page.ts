@@ -36,7 +36,7 @@ fetch(pageDataUrl)
         template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
         <div class="gallery__video-container">
-          <video muted autoplay loop class="gallery__video">
+          <video muted autoplay loop playsinline class="gallery__video">
             <source src="${image}" type="video/mp4" />
           </video>
         </div>
