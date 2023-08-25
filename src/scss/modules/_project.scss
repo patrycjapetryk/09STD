@@ -29,8 +29,16 @@
     width: 90%;
     overflow: hidden;
 
+    @media (min-width: $breakpoint-laptop-width) {
+      width: 70%;
+    }
+
     &--vertical {
       width: 70%;
+
+      @media (min-width: $breakpoint-laptop-width) {
+        width: 60%;
+      }
     }
   }
 
