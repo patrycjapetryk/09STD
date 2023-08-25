@@ -35,11 +35,9 @@ fetch(pageDataUrl)
       if (image.includes('mp4')) {
         template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
-        <div class="gallery__video-container">
-          <video muted autoplay loop playsinline class="gallery__video">
-            <source src="${image}" type="video/mp4" />
-          </video>
-        </div>
+        <video muted autoplay loop playsinline class="gallery__video">
+          <source src="${image}" type="video/mp4" />
+        </video>
         <h3 class="gallery__name">${title}</h3>
       </a>
       `;

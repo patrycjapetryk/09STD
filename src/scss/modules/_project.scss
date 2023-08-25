@@ -27,6 +27,7 @@
 
   &__item {
     width: 90%;
+    overflow: hidden;
 
     &--vertical {
       width: 70%;
@@ -64,12 +65,18 @@
     padding: 18px 30% 0 0;
     margin: 0;
     font-size: $global-font-size;
-    text-transform: uppercase;
     font-weight: normal;
     color: $main-color;
 
     @media (min-width: $breakpoint-laptop-width) {
       padding: 30px 30% 0 0;
     }
+  }
+
+  &__video {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: scale(101%);
   }
 }

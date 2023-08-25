@@ -46,13 +46,26 @@ fetch(projectDataUrl)
 
     for (const photo of photos) {
       const { image, size } = photo;
-      const template = `
-      <div class="project__item ${
-        size === 'large' || 'project__item--vertical'
-      }">
-        <img class="project__image" src="${image}" alt=""/>
-      </div>
-      `;
+      let template: string;
+      if (image.includes('mp4')) {
+        template = `
+        <div class="project__item ${
+          size === 'large' || 'project__item--vertical'
+        }">
+          <video muted autoplay loop playsinline class="project__video">
+            <source src="${image}" type="video/mp4" />
+          </video>
+        </div>
+        `;
+      } else {
+        template = `
+        <div class="project__item ${
+          size === 'large' || 'project__item--vertical'
+        }">
+          <img class="project__image" src="${image}" alt=""/>
+        </div>
+        `;
+      }
 
       project.innerHTML += template;
     }
