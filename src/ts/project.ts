@@ -47,12 +47,13 @@ fetch(projectDataUrl)
     for (const photo of photos) {
       const { image, size } = photo;
       let template: string;
+
       if (image.includes('mp4')) {
         template = `
         <div class="project__item ${
           size === 'large' || 'project__item--vertical'
         }">
-          <video muted autoplay loop playsinline class="project__video">
+          <video muted loop playsinline class="project__video project__video--js">
             <source src="${image}" type="video/mp4" />
           </video>
         </div>
@@ -68,6 +69,15 @@ fetch(projectDataUrl)
       }
 
       project.innerHTML += template;
+    }
+
+    const projectVideos = document.querySelectorAll<HTMLVideoElement>(
+      '.project__video--js',
+    );
+
+    for (const video of projectVideos) {
+      video.load();
+      video.play();
     }
   })
   .catch((err) => console.log(err));

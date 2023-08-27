@@ -35,7 +35,7 @@ fetch(pageDataUrl)
       if (image.includes('mp4')) {
         template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
-        <video muted autoplay loop playsinline class="gallery__video">
+        <video muted loop playsinline class="gallery__video gallery__video--js">
           <source src="${image}" type="video/mp4" />
         </video>
         <h3 class="gallery__name">${title}</h3>
@@ -51,6 +51,15 @@ fetch(pageDataUrl)
       }
 
       gallery.innerHTML += template;
+    }
+
+    const pageVideos = document.querySelectorAll<HTMLVideoElement>(
+      '.gallery__video--js',
+    );
+
+    for (const video of pageVideos) {
+      video.load();
+      video.play();
     }
   })
   .catch((err) => console.log(err));

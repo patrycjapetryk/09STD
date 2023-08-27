@@ -6,10 +6,21 @@ fetch('../data/homepage.json')
 
     for (const slide of data) {
       const { image, description } = slide;
-      const template = `
-      <img class="home-page__image home-page__image--js" src=${image} alt=""/>
-      <h3 class="home-page__description home-page__description--js">${description}</h3>
-      `;
+      let template: string;
+
+      if (image.includes('mp4')) {
+        template = `
+        <video muted loop playsinline class="home-page__video home-page__image--js">
+          <source src="${image}" type="video/mp4" />
+        </video>
+        <h3 class="home-page__description home-page__description--js">${description}</h3>
+        `;
+      } else {
+        template = `
+        <img class="home-page__image home-page__image--js" src=${image} alt=""/>
+        <h3 class="home-page__description home-page__description--js">${description}</h3>
+        `;
+      }
 
       slider.innerHTML += template;
     }
@@ -17,6 +28,7 @@ fetch('../data/homepage.json')
     const images = document.querySelectorAll<HTMLElement>(
       '.home-page__image--js',
     );
+    const homepageVideos = document.querySelectorAll<HTMLVideoElement>('video');
     const imagesLength = images.length;
     const galleryDescriptions = document.querySelectorAll<HTMLElement>(
       '.home-page__description--js',
@@ -24,6 +36,11 @@ fetch('../data/homepage.json')
     const queryWidth = window.matchMedia('(min-width: 1024px)');
     let changeImagesOnTimeoutTimer: ReturnType<typeof setTimeout>;
     let countImages = 0;
+
+    for (const video of homepageVideos) {
+      video.load();
+      video.play();
+    }
 
     const changeImagesOnMousemove = (event: MouseEvent) => {
       const cursorX = event.clientX;

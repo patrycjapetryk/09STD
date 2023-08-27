@@ -4,7 +4,10 @@
       "image": "./images/homepage/1.jpg",
       "description": "LINDA TOL X SIMPLE"
     },
-
+    {
+      "image": "./video/homepage/2.mp4",
+      "description": "BLACK WEEK AR PROJECT"
+    },
     {
       "image": "./images/homepage/3.jpg",
       "description": "MAGDA BUTRYM DTP PRODUCTION"
@@ -20,6 +23,14 @@
     {
       "image": "./images/homepage/6.jpg",
       "description": "JEN WONDERS x JENNY FAIRY"
+    },
+    {
+      "image": "./video/homepage/7.mp4",
+      "description": "PUMA X ALEXANDER MCQUEEN INVITATION"
+    },
+    {
+      "image": "./video/homepage/8.mp4",
+      "description": "YSL_INVITATION"
     }
   ]
 }
