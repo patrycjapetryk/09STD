@@ -120,4 +120,19 @@
     text-align: center;
     margin: 20px auto;
   }
+
+  &__follow-link {
+    display: block;
+    font-size: $global-font-size-ml;
+    font-weight: normal;
+    color: $main-color;
+    text-decoration: none;
+    margin: 20px 0;
+  }
+
+  &__follow-image {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+  }
 }

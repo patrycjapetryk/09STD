@@ -2,35 +2,24 @@
   "projects": [
     {
       "image": "./images/homepage/1.jpg",
-      "description": "DIGITAL GRAPHIC FOR PUMA X ALEXANDER MCQUEEN"
+      "description": "LINDA TOL X SIMPLE"
     },
-    {
-      "image": "./images/homepage/2.jpg",
-      "description": "YVES SAINT LAURENT 2022"
-    },
+
     {
       "image": "./images/homepage/3.jpg",
-      "description": "MURAL PROJECT FOR JENNY FAIRY"
+      "description": "MAGDA BUTRYM DTP PRODUCTION"
     },
     {
       "image": "./images/homepage/4.jpg",
-      "description": "DIGITAL ADVERT FOR TOPSHOP"
+      "description": "JF NEWSSTAND EVENT"
     },
     {
       "image": "./images/homepage/5.jpg",
-      "description": "Constent YSL 2020"
+      "description": "BYREDO x OLIVIA KIJO"
     },
     {
       "image": "./images/homepage/6.jpg",
-      "description": " YVES SAINT LAURENT 2022"
-    },
-    {
-      "image": "./images/homepage/7.jpg",
-      "description": "NEWSLETTER FOR MAGDA BUTRYM"
-    },
-    {
-      "image": "./images/homepage/8.jpg",
-      "description": "YVES SAINT LAURENT 2022"
+      "description": "JEN WONDERS x JENNY FAIRY"
     }
   ]
 }
