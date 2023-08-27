@@ -3,46 +3,48 @@ fetch('../data/homepage.json')
   .then((res) => {
     const data = res.projects;
     const slider: HTMLElement = document.querySelector('.home-page--js');
+    let changeImagesOnTimeoutTimer: ReturnType<typeof setTimeout>;
+    let countImages = 0;
 
-    for (const slide of data) {
-      const { image, description } = slide;
-      let template: string;
+    const loadContent = () => {
+      for (const slide of data) {
+        const { image, description } = slide;
+        let template: string;
 
-      if (image.includes('mp4')) {
-        template = `
+        if (image.includes('mp4')) {
+          template = `
         <video muted loop playsinline class="home-page__video home-page__image--js">
           <source src="${image}" type="video/mp4" />
         </video>
         <h3 class="home-page__description home-page__description--js">${description}</h3>
         `;
-      } else {
-        template = `
+        } else {
+          template = `
         <img class="home-page__image home-page__image--js" src=${image} alt=""/>
         <h3 class="home-page__description home-page__description--js">${description}</h3>
         `;
+        }
+
+        slider.innerHTML += template;
       }
 
-      slider.innerHTML += template;
-    }
+      const homepageVideos =
+        document.querySelectorAll<HTMLVideoElement>('video');
 
-    const images = document.querySelectorAll<HTMLElement>(
-      '.home-page__image--js',
-    );
-    const homepageVideos = document.querySelectorAll<HTMLVideoElement>('video');
-    const imagesLength = images.length;
-    const galleryDescriptions = document.querySelectorAll<HTMLElement>(
-      '.home-page__description--js',
-    );
-    const queryWidth = window.matchMedia('(min-width: 1024px)');
-    let changeImagesOnTimeoutTimer: ReturnType<typeof setTimeout>;
-    let countImages = 0;
-
-    for (const video of homepageVideos) {
-      video.load();
-      video.play();
-    }
+      for (const video of homepageVideos) {
+        video.load();
+        video.play();
+      }
+    };
 
     const changeImagesOnMousemove = (event: MouseEvent) => {
+      const images = document.querySelectorAll<HTMLElement>(
+        '.home-page__image--js',
+      );
+      const galleryDescriptions = document.querySelectorAll<HTMLElement>(
+        '.home-page__description--js',
+      );
+      const imagesLength = images.length;
       const cursorX = event.clientX;
       const partWidth = slider.getBoundingClientRect().width / imagesLength;
       const sliderLeft = slider.getBoundingClientRect().left;
@@ -64,6 +66,11 @@ fetch('../data/homepage.json')
     };
 
     const changeImagesOnTimeout = () => {
+      const images = document.querySelectorAll<HTMLElement>(
+        '.home-page__image--js',
+      );
+      const imagesLength = images.length;
+
       for (let i = 0; i < imagesLength; i++) {
         const image = images[i];
 
@@ -83,6 +90,8 @@ fetch('../data/homepage.json')
     };
 
     const mediaQuery = () => {
+      const queryWidth = window.matchMedia('(min-width: 1024px)');
+
       clearTimeout(changeImagesOnTimeoutTimer);
       if (queryWidth.matches) {
         slider.addEventListener('mousemove', changeImagesOnMousemove);
@@ -92,6 +101,7 @@ fetch('../data/homepage.json')
       }
     };
 
+    loadContent();
     mediaQuery();
     window.addEventListener('resize', mediaQuery);
   })
