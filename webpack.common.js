@@ -175,5 +175,12 @@ module.exports = {
       filename: 'public-relations-and-events/project/index.html',
       minify: false,
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/influencers/project/index.pug',
+      inject: 'body',
+      chunks: ['index', 'project'],
+      filename: 'influencers/project/index.html',
+      minify: false,
+    }),
   ],
 };
