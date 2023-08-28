@@ -77,7 +77,9 @@ fetch(projectDataUrl)
 
     for (const video of projectVideos) {
       video.load();
-      video.play();
+      setTimeout(() => {
+        video.play();
+      }, 1000);
     }
   })
   .catch((err) => console.log(err));
