@@ -112,10 +112,6 @@
     text-transform: uppercase;
     font-weight: normal;
     color: $main-color;
-
-    @media (min-width: $breakpoint-laptop-width) {
-      padding: 30px 30% 9px 0;
-    }
   }
 
   &__link {
