@@ -49,6 +49,7 @@
     aspect-ratio: 800/963;
     object-fit: contain;
     display: block;
+    background-color: $beige;
   }
 
   &__video {
@@ -58,6 +59,7 @@
     object-fit: contain;
     display: block;
     transform: scale(101%);
+    background-color: $beige;
   }
 
   &__name {

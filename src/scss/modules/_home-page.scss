@@ -23,6 +23,8 @@
     width: 100%;
     height: auto;
     opacity: 0;
+    aspect-ratio: 898/1080;
+    background-color: $beige;
 
     &:nth-of-type(1) {
       opacity: 1;
@@ -56,5 +58,7 @@
     width: 100%;
     height: auto;
     opacity: 0;
+    aspect-ratio: 898/1080;
+    background-color: $beige;
   }
 }

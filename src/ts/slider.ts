@@ -13,7 +13,7 @@ fetch('../data/homepage.json')
 
         if (image.includes('mp4')) {
           template = `
-        <video muted loop playsinline class="home-page__video home-page__image--js">
+        <video muted loop playsinline autoplay class="home-page__video home-page__image--js">
           <source src="${image}" type="video/mp4" />
         </video>
         <h3 class="home-page__description home-page__description--js">${description}</h3>
@@ -33,9 +33,7 @@ fetch('../data/homepage.json')
 
       for (const video of homepageVideos) {
         video.load();
-        setTimeout(() => {
-          video.play();
-        }, 1000);
+        video.play();
       }
     };
 

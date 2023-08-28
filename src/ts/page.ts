@@ -35,7 +35,7 @@ fetch(pageDataUrl)
       if (image.includes('mp4')) {
         template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
-        <video muted loop playsinline class="gallery__video gallery__video--js">
+        <video muted loop playsinline autoplay class="gallery__video gallery__video--js">
           <source src="${image}" type="video/mp4" />
         </video>
         <h3 class="gallery__name">${title}</h3>
@@ -59,9 +59,7 @@ fetch(pageDataUrl)
 
     for (const video of pageVideos) {
       video.load();
-      setTimeout(() => {
-        video.play();
-      }, 1000);
+      video.play();
     }
   })
   .catch((err) => console.log(err));
