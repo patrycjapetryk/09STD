@@ -9,6 +9,10 @@
 @import 'modules/_project';
 @import 'modules/_article';
 
+body {
+  margin: 0;
+}
+
 .app {
   color: $main-color;
   font-family: $main-font;
