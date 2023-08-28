@@ -51,6 +51,110 @@
     },
 
     {
+      "image": "/images/public-relations-and-events/7.jpg",
+      "title": "ADVERT FOR LASOCKI X TWÓJ STYL",
+      "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects.",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/7-1.jpeg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/public-relations-and-events/8.jpg",
+      "title": "LINDA TOL FOR SIMPLE X VOGUE",
+      "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects.",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/8-1.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/8-2.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/8-3.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/8-4.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/8-5.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/8-6.jpeg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/8-7.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/public-relations-and-events/5.jpg",
+      "title": "ROSE GARDEN WITH JF",
+      "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects. ",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/5-1.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/5-2.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/5-3.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/5-4.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/5-5.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/5-6.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/5-7.jpg",
+          "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/5-8.jpg",
+          "size": "small"
+        },
+        {
+          "image": "/images/public-relations-and-events/5-9.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/public-relations-and-events/9.mp4",
+      "title": "GINO ROSSI VOGUE",
+      "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects.",
+      "photos": [
+        {
+          "image": "/video/public-relations-and-events/9-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
       "image": "/images/public-relations-and-events/2.jpg",
       "title": "SIMPLE IS BACK - POP UP",
       "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects.",
@@ -93,54 +197,6 @@
         },
         {
           "image": "/images/public-relations-and-events/2-10.jpg",
-          "size": "small"
-        }
-      ]
-    },
-
-    {
-      "image": "/images/public-relations-and-events/3.jpg",
-      "title": "NEWSSTAND JF",
-      "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects. ",
-      "photos": [
-        {
-          "image": "/images/public-relations-and-events/3-1.jpeg",
-          "size": "large"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-2.jpeg",
-          "size": "small"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-3.jpeg",
-          "size": "large"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-4.jpeg",
-          "size": "small"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-5.jpeg",
-          "size": "large"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-6.jpeg",
-          "size": "small"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-7.jpeg",
-          "size": "large"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-8.jpeg",
-          "size": "small"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-9.jpeg",
-          "size": "large"
-        },
-        {
-          "image": "/images/public-relations-and-events/3-10.jpeg",
           "size": "small"
         }
       ]
@@ -195,45 +251,61 @@
     },
 
     {
-      "image": "/images/public-relations-and-events/5.jpg",
-      "title": "ROSE GARDEN WITH JF",
+      "image": "/images/public-relations-and-events/10.jpg",
+      "title": "ADVERT FOR JF X VOGUE POLAND",
+      "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects.",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/10-1.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/public-relations-and-events/3.jpg",
+      "title": "NEWSSTAND JF",
       "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects. ",
       "photos": [
         {
-          "image": "/images/public-relations-and-events/5-1.jpg",
+          "image": "/images/public-relations-and-events/3-1.jpeg",
           "size": "large"
         },
         {
-          "image": "/images/public-relations-and-events/5-2.jpg",
+          "image": "/images/public-relations-and-events/3-2.jpeg",
           "size": "small"
         },
         {
-          "image": "/images/public-relations-and-events/5-3.jpg",
+          "image": "/images/public-relations-and-events/3-3.jpeg",
           "size": "large"
         },
         {
-          "image": "/images/public-relations-and-events/5-4.jpg",
+          "image": "/images/public-relations-and-events/3-4.jpeg",
           "size": "small"
         },
         {
-          "image": "/images/public-relations-and-events/5-5.jpg",
+          "image": "/images/public-relations-and-events/3-5.jpeg",
           "size": "large"
         },
         {
-          "image": "/images/public-relations-and-events/5-6.jpg",
+          "image": "/images/public-relations-and-events/3-6.jpeg",
           "size": "small"
         },
         {
-          "image": "/images/public-relations-and-events/5-7.jpg",
+          "image": "/images/public-relations-and-events/3-7.jpeg",
           "size": "large"
         },
         {
-          "image": "/images/public-relations-and-events/5-8.jpg",
+          "image": "/images/public-relations-and-events/3-8.jpeg",
           "size": "small"
         },
         {
-          "image": "/images/public-relations-and-events/5-9.jpg",
+          "image": "/images/public-relations-and-events/3-9.jpeg",
           "size": "large"
+        },
+        {
+          "image": "/images/public-relations-and-events/3-10.jpeg",
+          "size": "small"
         }
       ]
     },
@@ -269,6 +341,30 @@
         },
         {
           "image": "/images/public-relations-and-events/6-7.jpeg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/public-relations-and-events/11.jpg",
+      "title": "ADVERT GINO ROSSI FOR ELLE POLAND",
+      "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects.",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/11-1.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/public-relations-and-events/12.jpg",
+      "title": "ADVERT JF FOR VOGUE POLAND",
+      "description": "Event production, Concept creation, communication strategies, press office,  media relations, special projects.",
+      "photos": [
+        {
+          "image": "/images/public-relations-and-events/12-1.jpg",
           "size": "large"
         }
       ]
