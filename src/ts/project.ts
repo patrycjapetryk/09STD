@@ -53,7 +53,9 @@ fetch(projectDataUrl)
         <div class="project__item ${
           size === 'large' || 'project__item--vertical'
         }">
-          
+          <video muted loop playsinline autoplay class="gallery__video project__video--js">
+            <source src="${image}" type="video/mp4" />
+          </video>
         </div>
         `;
       } else {
