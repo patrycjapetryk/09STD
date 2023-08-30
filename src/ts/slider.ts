@@ -33,7 +33,9 @@ fetch('../data/homepage.json')
 
       for (const video of homepageVideos) {
         video.load();
-        video.play();
+        setTimeout(() => {
+          video.play();
+        }, 1000);
       }
     };
 

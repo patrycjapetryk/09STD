@@ -59,7 +59,9 @@ fetch(pageDataUrl)
 
     for (const video of pageVideos) {
       video.load();
-      video.play();
+      setTimeout(() => {
+        video.play();
+      }, 1000);
     }
   })
   .catch((err) => console.log(err));
