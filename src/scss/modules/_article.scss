@@ -33,12 +33,15 @@
 
   &__mail {
     display: block;
-    font-size: $global-font-size-l;
+    font-size: $global-font-size-mml;
     color: $main-color;
     text-decoration: none;
     $main-weight: normal;
     margin-top: 35px;
 
+    @media (min-width: $breakpoint-small-mobile-width) {
+      font-size: $global-font-size-mll;
+    }
     @media (min-width: $breakpoint-mobile-width) {
       font-size: $global-font-size-xl;
     }
