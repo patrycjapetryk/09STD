@@ -1,7 +1,52 @@
 {
   "title": "Graphic design",
   "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+
   "projects": [
+    {
+      "image": "/video/graphic-design/20.mp4",
+      "title": "YSL AR PROJECT MYSLF",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/1.jpg",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/video/graphic-design/21.mp4",
+      "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/21-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/video/graphic-design/22.mp4",
+      "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/22-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/video/graphic-design/23.mp4",
+      "title": "YSL INVITATION MYSLF VTSS",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/23-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
     {
       "image": "/images/graphic-design/1.jpg",
       "title": "KV GINO ROSSI PERFUME ADVERTORIAL",
