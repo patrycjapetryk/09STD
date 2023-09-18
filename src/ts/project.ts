@@ -1,9 +1,4 @@
-const projectPagesNames: string[] = [
-  'public-relations-and-events',
-  'influencers',
-  'graphic-design',
-  'social-media',
-];
+import { videoLoader, pagesNames } from './helpers';
 
 let projectDataUrl: string;
 const params = new URLSearchParams(location.search);
@@ -15,7 +10,7 @@ if (!params.get('id')) {
 
 const projectId: string = params.get('id');
 
-for (const pageName of projectPagesNames) {
+for (const pageName of pagesNames) {
   if (location.href.includes(pageName)) {
     projectDataUrl = `../../data/${pageName}.json`;
     break;
@@ -75,11 +70,6 @@ fetch(projectDataUrl)
       '.project__video--js',
     );
 
-    for (const video of projectVideos) {
-      setTimeout(() => {
-        if (video.readyState <= 2) video.load();
-        video.play();
-      }, 1000);
-    }
+    videoLoader(projectVideos, 1000);
   })
   .catch((err) => console.log(err));

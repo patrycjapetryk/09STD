@@ -1,14 +1,9 @@
-const pagePagesNames: string[] = [
-  'public-relations-and-events',
-  'influencers',
-  'graphic-design',
-  'social-media',
-];
+import { videoLoader, pagesNames } from './helpers';
 
 let pageSlug: string;
 let pageDataUrl: string;
 
-for (const pageName of pagePagesNames) {
+for (const pageName of pagesNames) {
   if (window.location.href.includes(pageName)) {
     pageSlug = pageName;
     pageDataUrl = `../data/${pageSlug}.json`;
@@ -59,11 +54,6 @@ fetch(pageDataUrl)
       '.gallery__video--js',
     );
 
-    for (const video of pageVideos) {
-      setTimeout(() => {
-        if (video.readyState <= 2) video.load();
-        video.play();
-      }, 1000);
-    }
+    videoLoader(pageVideos, 1000);
   })
   .catch((err) => console.log(err));

@@ -1,3 +1,5 @@
+import { videoLoader } from './helpers';
+
 fetch('../data/homepage.json')
   .then((res) => res.json())
   .then((res) => {
@@ -31,12 +33,7 @@ fetch('../data/homepage.json')
       const homepageVideos =
         document.querySelectorAll<HTMLVideoElement>('video');
 
-      for (const video of homepageVideos) {
-        setTimeout(() => {
-          if (video.readyState <= 2) video.load();
-          video.play();
-        }, 1000);
-      }
+      videoLoader(homepageVideos, 1000);
     };
 
     const changeImagesOnMousemove = (event: MouseEvent) => {
