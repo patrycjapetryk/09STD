@@ -30,7 +30,7 @@ fetch(pageDataUrl)
       if (image.includes('mp4')) {
         template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
-        <video muted loop playsinline autoplay poster="${
+        <video muted loop playsinline poster="${
           poster ? poster : ''
         }" class="gallery__video gallery__video--js">
           <source src="${image}" type="video/mp4" />
