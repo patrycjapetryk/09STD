@@ -32,9 +32,9 @@ fetch('../data/homepage.json')
         document.querySelectorAll<HTMLVideoElement>('video');
 
       for (const video of homepageVideos) {
-        video.load();
+        // video.load();
         setTimeout(() => {
-          video.play();
+          if (video.paused) video.play();
         }, 1000);
       }
     };

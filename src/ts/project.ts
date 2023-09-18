@@ -53,7 +53,7 @@ fetch(projectDataUrl)
         <div class="project__item ${
           size === 'large' || 'project__item--vertical'
         }">
-          <video muted loop playsinline autoplay class="gallery__video project__video--js">
+          <video muted loop playsinline autoplay class="project__video project__video--js">
             <source src="${image}" type="video/mp4" />
           </video>
         </div>
@@ -76,9 +76,9 @@ fetch(projectDataUrl)
     );
 
     for (const video of projectVideos) {
-      video.load();
+      // video.load();
       setTimeout(() => {
-        video.play();
+        if (video.paused) video.play();
       }, 1000);
     }
   })

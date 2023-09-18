@@ -58,9 +58,9 @@ fetch(pageDataUrl)
     );
 
     for (const video of pageVideos) {
-      video.load();
+      // video.load();
       setTimeout(() => {
-        video.play();
+        if (video.paused) video.play();
       }, 1000);
     }
   })
