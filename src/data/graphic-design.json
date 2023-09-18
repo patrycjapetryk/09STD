@@ -5,6 +5,7 @@
   "projects": [
     {
       "image": "/video/graphic-design/22.mp4",
+      "poster": "/video/graphic-design/22.jpg",
       "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
       "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
       "photos": [
@@ -16,12 +17,12 @@
     },
 
     {
-      "image": "/video/graphic-design/20.mp4",
-      "title": "YSL AR PROJECT MYSLF",
+      "image": "/images/graphic-design/2.jpeg",
+      "title": "YSL DARIA ZAWIALOW COMPLIMENTS",
       "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
       "photos": [
         {
-          "image": "/video/graphic-design/20-1.mp4",
+          "image": "/images/graphic-design/2.jpeg",
           "size": "large"
         }
       ]
@@ -29,6 +30,7 @@
 
     {
       "image": "/video/graphic-design/21.mp4",
+      "poster": "/video/graphic-design/21.jpg",
       "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
       "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
       "photos": [
