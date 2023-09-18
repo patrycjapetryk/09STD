@@ -4,12 +4,12 @@
 
   "projects": [
     {
-      "image": "/video/graphic-design/21.mp4",
+      "image": "/video/graphic-design/22.mp4",
       "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
       "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
       "photos": [
         {
-          "image": "/images/graphic-design/21-1.mp4",
+          "image": "/video/graphic-design/22-1.mp4",
           "size": "large"
         }
       ]
@@ -28,12 +28,12 @@
     },
 
     {
-      "image": "/video/graphic-design/22.mp4",
+      "image": "/video/graphic-design/21.mp4",
       "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
       "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
       "photos": [
         {
-          "image": "/video/graphic-design/22-1.mp4",
+          "image": "/images/graphic-design/21-1.mp4",
           "size": "large"
         }
       ]
