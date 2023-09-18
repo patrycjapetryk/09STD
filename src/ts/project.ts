@@ -76,9 +76,9 @@ fetch(projectDataUrl)
     );
 
     for (const video of projectVideos) {
-      // video.load();
       setTimeout(() => {
-        if (video.paused) video.play();
+        if (video.readyState <= 2) video.load();
+        video.play();
       }, 1000);
     }
   })
