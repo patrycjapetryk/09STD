@@ -1,4 +1,4 @@
-import { videoLoader, pagesNames } from './helpers';
+import { lazyVideoLoader, lazyImageLoader, pagesNames } from './helpers';
 
 let pageSlug: string;
 let pageDataUrl: string;
@@ -30,10 +30,10 @@ fetch(pageDataUrl)
       if (image.includes('mp4')) {
         template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
-        <video muted loop playsinline autoplay poster="${
+        <video muted loop playsinline poster="${
           poster ? poster : ''
-        }" class="gallery__video gallery__video--js">
-          <source src="${image}" type="video/mp4" />
+        }" class="gallery__video lazyVideo">
+          <source data-src="${image}" type="video/mp4" />
         </video>
         <h3 class="gallery__name">${title}</h3>
       </a>
@@ -41,7 +41,7 @@ fetch(pageDataUrl)
       } else {
         template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
-        <img class="gallery__image" src="${image}" alt="${title}"/>
+        <img class="gallery__image lazyImage" src="" data-src="${image}" alt="${title}"/>
         <h3 class="gallery__name">${title}</h3>
       </a>
       `;
@@ -50,10 +50,12 @@ fetch(pageDataUrl)
       gallery.innerHTML += template;
     }
 
-    const pageVideos = document.querySelectorAll<HTMLVideoElement>(
-      '.gallery__video--js',
-    );
+    const pageImages =
+      document.querySelectorAll<HTMLImageElement>('.lazyImage');
+    lazyImageLoader(pageImages);
 
-    videoLoader(pageVideos, 1000);
+    const pageVideos =
+      document.querySelectorAll<HTMLVideoElement>('.lazyVideo');
+    lazyVideoLoader(pageVideos);
   })
   .catch((err) => console.log(err));

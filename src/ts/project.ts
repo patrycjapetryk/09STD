@@ -1,4 +1,4 @@
-import { videoLoader, pagesNames } from './helpers';
+import { lazyVideoLoader, pagesNames } from './helpers';
 
 let projectDataUrl: string;
 const params = new URLSearchParams(location.search);
@@ -40,7 +40,7 @@ fetch(projectDataUrl)
     paragraph.innerHTML = description;
 
     for (const photo of photos) {
-      const { image, size } = photo;
+      const { image, size, poster } = photo;
       let template: string;
 
       if (image.includes('mp4')) {
@@ -48,8 +48,10 @@ fetch(projectDataUrl)
         <div class="project__item ${
           size === 'large' || 'project__item--vertical'
         }">
-          <video muted loop playsinline autoplay class="project__video project__video--js">
-            <source src="${image}" type="video/mp4" />
+          <video muted loop playsinline  poster="${
+            poster ? poster : ''
+          }" class="project__video lazyVideo">
+            <source data-src="${image}" type="video/mp4" />
           </video>
         </div>
         `;
@@ -66,10 +68,8 @@ fetch(projectDataUrl)
       project.innerHTML += template;
     }
 
-    const projectVideos = document.querySelectorAll<HTMLVideoElement>(
-      '.project__video--js',
-    );
-
-    videoLoader(projectVideos, 1000);
+    const projectVideos =
+      document.querySelectorAll<HTMLVideoElement>('.lazyVideo');
+    lazyVideoLoader(projectVideos);
   })
   .catch((err) => console.log(err));
