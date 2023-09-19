@@ -1,4 +1,4 @@
-import { videoLoader } from './helpers';
+import { lazyVideoLoader } from './helpers';
 
 fetch('../data/homepage.json')
   .then((res) => res.json())
@@ -10,13 +10,15 @@ fetch('../data/homepage.json')
 
     const loadContent = () => {
       for (const slide of data) {
-        const { image, description } = slide;
+        const { image, description, poster } = slide;
         let template: string;
 
         if (image.includes('mp4')) {
           template = `
-        <video muted loop playsinline autoplay class="home-page__video home-page__image--js">
-          <source src="${image}" type="video/mp4" />
+        <video muted loop playsinline  poster="${
+          poster ? poster : ''
+        }" class="home-page__video home-page__image--js lazyVideo">
+          <source data-src="${image}" type="video/mp4" />
         </video>
         <h3 class="home-page__description home-page__description--js">${description}</h3>
         `;
@@ -31,9 +33,8 @@ fetch('../data/homepage.json')
       }
 
       const homepageVideos =
-        document.querySelectorAll<HTMLVideoElement>('video');
-
-      videoLoader(homepageVideos, 1000);
+        document.querySelectorAll<HTMLVideoElement>('.lazyVideo');
+      lazyVideoLoader(homepageVideos);
     };
 
     const changeImagesOnMousemove = (event: MouseEvent) => {
