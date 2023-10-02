@@ -13,7 +13,7 @@ export function lazyImageLoader(lazyImages: NodeListOf<HTMLImageElement>) {
 
         if (entry.isIntersecting) {
           image.src = image.dataset.src;
-          image.classList.remove('lazyImage');
+          image.classList.remove('lazy-image');
           lazyImageObserver.unobserve(image);
         }
       }
@@ -36,7 +36,7 @@ export function lazyVideoLoader(lazyVideos: NodeListOf<HTMLVideoElement>) {
           videoSource.src = videoSource.dataset.src;
           video.load();
           video.play();
-          video.classList.remove('lazyVideo');
+          video.classList.remove('lazy-video');
           lazyVideoObserver.unobserve(video);
         }
       }

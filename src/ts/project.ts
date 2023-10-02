@@ -50,7 +50,7 @@ fetch(projectDataUrl)
         }">
           <video muted loop playsinline  poster="${
             poster ? poster : ''
-          }" class="project__video lazyVideo">
+          }" class="project__video lazy-video">
             <source data-src="${image}" type="video/mp4" />
           </video>
         </div>
@@ -69,7 +69,7 @@ fetch(projectDataUrl)
     }
 
     const projectVideos =
-      document.querySelectorAll<HTMLVideoElement>('.lazyVideo');
+      document.querySelectorAll<HTMLVideoElement>('.lazy-video');
     lazyVideoLoader(projectVideos);
   })
   .catch((err) => console.log(err));

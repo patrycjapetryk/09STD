@@ -32,7 +32,7 @@ fetch(pageDataUrl)
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
         <video muted loop playsinline poster="${
           poster ? poster : ''
-        }" class="gallery__video lazyVideo">
+        }" class="gallery__video lazy-video">
           <source data-src="${image}" type="video/mp4" />
         </video>
         <h3 class="gallery__name">${title}</h3>
@@ -41,7 +41,7 @@ fetch(pageDataUrl)
       } else {
         template = `
       <a class="gallery__item" href="/${pageSlug}/project?id=${projectIndex}">
-        <img class="gallery__image lazyImage" src="" data-src="${image}" alt="${title}"/>
+        <img class="gallery__image lazy-image" src="" data-src="${image}" alt="${title}"/>
         <h3 class="gallery__name">${title}</h3>
       </a>
       `;
@@ -51,11 +51,11 @@ fetch(pageDataUrl)
     }
 
     const pageImages =
-      document.querySelectorAll<HTMLImageElement>('.lazyImage');
+      document.querySelectorAll<HTMLImageElement>('.lazy-image');
     lazyImageLoader(pageImages);
 
     const pageVideos =
-      document.querySelectorAll<HTMLVideoElement>('.lazyVideo');
+      document.querySelectorAll<HTMLVideoElement>('.lazy-video');
     lazyVideoLoader(pageVideos);
   })
   .catch((err) => console.log(err));

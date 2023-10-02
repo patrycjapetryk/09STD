@@ -15,17 +15,21 @@ fetch('../data/homepage.json')
 
         if (image.includes('mp4')) {
           template = `
-        <video muted loop playsinline  poster="${
-          poster ? poster : ''
-        }" class="home-page__video home-page__image--js lazyVideo">
-          <source data-src="${image}" type="video/mp4" />
-        </video>
-        <h3 class="home-page__description home-page__description--js">${description}</h3>
+        <figure class="figure figure--js">
+          <video muted loop playsinline  poster="${
+            poster ? poster : ''
+          }" class="home-page__video lazy-video">
+            <source data-src="${image}" type="video/mp4" />
+          </video>
+          <figcaption class="home-page__description">${description}</figcaption>
+        </figure>
         `;
         } else {
           template = `
-        <img class="home-page__image home-page__image--js" src=${image} alt=""/>
-        <h3 class="home-page__description home-page__description--js">${description}</h3>
+        <figure class="figure figure--js">
+          <img class="home-page__image" src=${image} alt="${description}"/>
+          <figcaption class="home-page__description">${description}</figcaption>
+        </figure>
         `;
         }
 
@@ -33,46 +37,36 @@ fetch('../data/homepage.json')
       }
 
       const homepageVideos =
-        document.querySelectorAll<HTMLVideoElement>('.lazyVideo');
+        document.querySelectorAll<HTMLVideoElement>('.lazy-video');
       lazyVideoLoader(homepageVideos);
     };
 
     const changeImagesOnMousemove = (event: MouseEvent) => {
-      const images = document.querySelectorAll<HTMLElement>(
-        '.home-page__image--js',
-      );
-      const galleryDescriptions = document.querySelectorAll<HTMLElement>(
-        '.home-page__description--js',
-      );
-      const imagesLength = images.length;
+      const figures = document.querySelectorAll<HTMLElement>('.figure--js');
+      const figuresLength = figures.length;
       const cursorX = event.clientX;
-      const partWidth = slider.getBoundingClientRect().width / imagesLength;
+      const partWidth = slider.getBoundingClientRect().width / figuresLength;
       const sliderLeft = slider.getBoundingClientRect().left;
 
-      for (let i = 0; i < imagesLength; i++) {
+      for (let i = 0; i < figuresLength; i++) {
         const partMinimum = partWidth * i + sliderLeft;
         const partMaximum = partWidth * (i + 1) + sliderLeft;
-        const image = images[i];
-        const galleryDescription = galleryDescriptions[i];
+        const figure = figures[i];
 
         if (cursorX >= partMinimum && cursorX < partMaximum) {
-          image.style.opacity = '1';
-          galleryDescription.style.opacity = '1';
+          figure.style.opacity = '1';
         } else {
-          image.style.opacity = '0';
-          galleryDescription.style.opacity = '0';
+          figure.style.opacity = '0';
         }
       }
     };
 
     const changeImagesOnTimeout = () => {
-      const images = document.querySelectorAll<HTMLElement>(
-        '.home-page__image--js',
-      );
-      const imagesLength = images.length;
+      const figures = document.querySelectorAll<HTMLElement>('.figure--js');
+      const figuresLength = figures.length;
 
-      for (let i = 0; i < imagesLength; i++) {
-        const image = images[i];
+      for (let i = 0; i < figuresLength; i++) {
+        const image = figures[i];
 
         if (i == countImages) {
           image.style.opacity = '1';
@@ -80,7 +74,7 @@ fetch('../data/homepage.json')
           image.style.opacity = '0';
         }
       }
-      if (countImages < imagesLength - 1) {
+      if (countImages < figuresLength - 1) {
         countImages++;
       } else {
         countImages = 0;

@@ -16,19 +16,32 @@
     height: 100vh;
   }
 
+  &__figure {
+    opacity: 0;
+
+    &:nth-of-type(1) {
+      opacity: 1;
+    }
+  }
+
   &__image {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: auto;
-    opacity: 0;
     aspect-ratio: 898/1080;
     background-color: $beige;
+  }
 
-    &:nth-of-type(1) {
-      opacity: 1;
-    }
+  &__video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 898/1080;
+    background-color: $beige;
   }
 
   &__description {
@@ -39,26 +52,10 @@
     position: fixed;
     left: 40px;
     bottom: 8px;
-    opacity: 0;
     pointer-events: none;
-
-    &:nth-of-type(1) {
-      opacity: 1;
-    }
 
     @media (min-width: $breakpoint-laptop-width) {
       display: block;
     }
-  }
-
-  &__video {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0;
-    aspect-ratio: 898/1080;
-    background-color: $beige;
   }
 }
