@@ -4,19 +4,6 @@
 
   "projects": [
     {
-      "image": "/video/webdev/gr-summer-perspective.mp4",
-      "poster": "",
-      "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
-      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
-      "photos": [
-        {
-          "image": "/video/webdev/gr-summer-perspective.mp4",
-          "size": "large"
-        }
-      ]
-    },
-
-    {
       "image": "/video/webdev/shwrm-1.mp4",
       "title": "YSL DARIA ZAWIALOW COMPLIMENTS",
       "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
@@ -29,13 +16,26 @@
     },
 
     {
-      "image": "/video/webdev/jf-dont-be-shy.mp4",
+      "image": "/video/webdev/jf-dont-be-shy.mp4?1",
       "poster": "",
       "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
       "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
       "photos": [
         {
-          "image": "/video/webdev/jf-dont-be-shy.mp4",
+          "image": "/video/webdev/jf-dont-be-shy.mp4?1",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/gr-summer-perspective.mp4",
+      "poster": "",
+      "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/gr-summer-perspective.mp4",
           "size": "large"
         }
       ]
