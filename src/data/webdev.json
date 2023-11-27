@@ -1,0 +1,287 @@
+{
+  "title": "WEBDEV",
+  "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+
+  "projects": [
+    {
+      "image": "/video/webdev/gr-summer-perspective.mp4",
+      "poster": "",
+      "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/gr-summer-perspective.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/shwrm-1.mp4",
+      "title": "YSL DARIA ZAWIALOW COMPLIMENTS",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/shwrm-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/jf-dont-be-shy.mp4",
+      "poster": "",
+      "title": "YSL INVITATION MYSLF AUSTIN BUTLER",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/jf-dont-be-shy.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/1.jpg",
+      "title": "KV GINO ROSSI PERFUME ADVERTORIAL",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners..",
+      "photos": [
+        {
+          "image": "/images/graphic-design/1.jpg",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/video/graphic-design/2.mp4",
+      "title": "DIGITAL GRAPHIC FOR PUMA x ALEXANDER MCQUEEN",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/2.mp4",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/images/graphic-design/3.jpg",
+      "title": "DTP PRODUCTION FOR MAGDA BUTRYM",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/3.jpg",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/images/graphic-design/4.jpg",
+      "title": "NEWSLETTER FOR MAGDA BUTRYM",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/4.jpg",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/video/graphic-design/5.mp4",
+      "title": "DIGITAL INVITATION FOR YSL BEAUTY CLUB EVENT",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/5.mp4",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/images/graphic-design/6.jpg",
+      "title": "DTP CATALOGUE PRODUCTION FOR MAGDA BUTRYM",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/6.jpg",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/images/graphic-design/7.jpg",
+      "title": "SHOWROOM NEWLETTER PROJECT",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/7.jpg",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/images/graphic-design/8.jpg",
+      "title": "KEYVISUAL FOR GINO ROSSI",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/8.jpg",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/images/graphic-design/9.jpg",
+      "title": "DIGITAL ADVERT FOR TOPSHOP",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/9.jpg",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "image": "/images/graphic-design/10.jpg",
+      "title": "MURAL PROJECT FOR JENNY FAIRY",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/10.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/graphic-design/11.mp4",
+      "title": "FESTIVAL LEVIS PROJECT",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/11.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/graphic-design/12.mp4",
+      "title": "AR PROJECT FOR BLACK WEEK",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/12.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/graphic-design/19.mp4",
+      "title": "INFOGRAPHIC FOR ELEKTROWNIA POWIŚLE",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/19-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/20.jpg",
+      "title": "CITY MAGAZINE LAYOUT",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/20-1.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/21.jpg",
+      "title": "CHRISTMAS INVITATION FOR DR IRENA ERIS ",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/21-1.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/13.jpg",
+      "title": "INVITATION FOR GIORGIO ARMANI",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/13.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/14.jpg",
+      "title": "POCKET MAGAZINE",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/14.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/15.jpg",
+      "title": "CITY MAGAZINY LAYOUT",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/15.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/16.jpg",
+      "title": "N/Y/C COVER PROJECT",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/16.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/17.jpg",
+      "title": "POSTER NEW YORK",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/17.jpg",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/images/graphic-design/18.jpg",
+      "title": "AUCTION LABEL PROJECT",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/images/graphic-design/18.jpg",
+          "size": "large"
+        }
+      ]
+    }
+  ]
+}

@@ -148,6 +148,14 @@ module.exports = {
       minify: false,
     }),
     new HtmlWebpackPlugin({
+      template: './src/pages/webdev/index.pug',
+      inject: 'body',
+      chunks: ['index', 'page'],
+      filename: 'webdev/index.html',
+      minify: false,
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/pages/contact.pug',
       inject: 'body',
       chunks: ['index'],
@@ -161,6 +169,7 @@ module.exports = {
       filename: '404.html',
       minify: false,
     }),
+
     new HtmlWebpackPlugin({
       template: './src/pages/graphic-design/project/index.pug',
       inject: 'body',
@@ -180,6 +189,13 @@ module.exports = {
       inject: 'body',
       chunks: ['index', 'project'],
       filename: 'influencers/project/index.html',
+      minify: false,
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/webdev/project/index.pug',
+      inject: 'body',
+      chunks: ['index', 'project'],
+      filename: 'webdev/project/index.html',
       minify: false,
     }),
   ],
