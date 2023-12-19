@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+  head
+    include ../../../partials/includes/metadata.pug
+    title WEBDEV | 09STD
+    meta(name='description' content='Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners')
+  body
+    .app
+      include ../../../partials/includes/header.pug
+      
+      include ../../../partials/mixins/page-header.pug
+      +page-header('WEBDEV', '/webdev/')(class= "page-header--gray")
+      +page-header('')(class= "page-header--project page-header--js")
+
+      main.project 
+        .project__description
+          p.project__paragraph.project__paragraph--js 
+
+        .project__container.project__container--js
+
+      

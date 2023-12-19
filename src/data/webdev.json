@@ -1,0 +1,161 @@
+{
+  "title": "WEBDEV",
+  "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+
+  "projects": [
+    {
+      "image": "/video/webdev/1-1.mp4",
+      "title": "DON'T BE SHY LANDING PAGE",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/1-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/2-1.mp4?2",
+      "poster": "",
+      "title": "SUMMER PERSPECTIVE GINO ROSSI",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/2-1.mp4?2",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/3-1.mp4",
+      "poster": "",
+      "title": "SUMMER GLOW. LANDING PAGE FOR QUAZI",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/3-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/12-1.mp4",
+      "poster": "",
+      "title": "MARCEL OSTERTAG #SHWRM",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/12-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/4-1.mp4",
+      "poster": "",
+      "title": "JENNY FAIRY SS21 LP",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/4-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/11-1.mp4",
+      "poster": "",
+      "title": "WELCOME SPRING LP FOR SHOWROOM.PL",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/11-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/6-1.mp4",
+      "poster": "",
+      "title": "CURLY SHEARLING JF LP",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/6-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/7-1.mp4",
+      "poster": "",
+      "title": "SPRANDI LANDING PAGE",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/7-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/8-1.mp4",
+      "poster": "",
+      "title": "METALLIC CARNIVAL LANDIN PAGE",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/8-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/5-1.mp4",
+      "poster": "",
+      "title": "MIDDAY COCKTAIL JENNY FAIRY",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/5-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/9-1.mp4",
+      "poster": "",
+      "title": "AMERICANOS LOOKBOOK LANDING PAGE",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/9-1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/webdev/10-1.mp4",
+      "poster": "",
+      "title": "CELEBRATE WOMEN'S DAY SHOWROOM.PL",
+      "description": "Concept and design, UX, UI, Web development, Websites, Online stores, Web apps, Competition platforms, Landing pages, HTML5 banners.",
+      "photos": [
+        {
+          "image": "/video/webdev/10-1.mp4",
+          "size": "large"
+        }
+      ]
+    }
+  ]
+}

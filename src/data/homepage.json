@@ -1,6 +1,11 @@
 {
   "projects": [
     {
+      "image": "./video/homepage/22.mp4",
+      "poster": "./video/homepage/22.jpg",
+      "description": "YSL MYSLF AR VIDEO"
+    },
+    {
       "image": "./images/homepage/1.jpg",
       "description": "LINDA TOL X SIMPLE"
     },

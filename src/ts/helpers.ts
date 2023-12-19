@@ -3,6 +3,7 @@ export const pagesNames: string[] = [
   'influencers',
   'graphic-design',
   'social-media',
+  'webdev',
 ];
 
 export function lazyImageLoader(lazyImages: NodeListOf<HTMLImageElement>) {
