@@ -5,7 +5,7 @@
 
 Website for 09STD Agency. It was built using Typescript, PUG, SCSS, and Webpack.
 
-- **Online version**: [[Open live demo]](https://09std.com)
+- **Online version**: [09std.com](https://09std.com)
 
 &nbsp;
 
