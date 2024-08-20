@@ -4,6 +4,18 @@
 
   "projects": [
     {
+      "image": "/video/graphic-design/23.mp4",
+      "title": "PRADA PARADOX",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/23.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
       "image": "/video/graphic-design/22.mp4",
       "poster": "/video/graphic-design/22.jpg",
       "title": "YSL INVITATION MYSLF AUSTIN BUTLER",

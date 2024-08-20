@@ -1,6 +1,11 @@
 {
   "projects": [
     {
+      "image": "./video/homepage/23.mp4",
+      "poster": "./video/homepage/23.jpg",
+      "description": "PRADA PARADOX"
+    },
+    {
       "image": "./video/homepage/22.mp4",
       "poster": "./video/homepage/22.jpg",
       "description": "YSL MYSLF AR VIDEO"
