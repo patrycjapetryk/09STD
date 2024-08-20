@@ -3,16 +3,19 @@
 
 .header {
   @include main-padding;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 10;
-  width: 100%;
-  height: $header-height;
-  display: flex;
-  align-items: center;
-  background-color: $white;
-  border-bottom: 1px solid $main-color;
+
+  & {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: $header-height;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    border-bottom: 1px solid $main-color;
+  }
 
   &__link {
     color: $main-color;

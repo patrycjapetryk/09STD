@@ -2,9 +2,11 @@
 @import '../_mixins';
 
 .project {
-  width: 100%;
-  margin-top: $header-height + $navigation-height + $description-height;
-  padding-bottom: 60px;
+  & {
+    width: 100%;
+    margin-top: $header-height + $navigation-height + $description-height;
+    padding-bottom: 60px;
+  }
 
   @media (min-width: $breakpoint-laptop-width) {
     margin-top: $header-height + $navigation-height + 10px;
@@ -26,8 +28,10 @@
   }
 
   &__item {
-    width: 90%;
-    overflow: hidden;
+    & {
+      width: 90%;
+      overflow: hidden;
+    }
 
     @media (min-width: $breakpoint-laptop-width) {
       width: 70%;
@@ -54,15 +58,17 @@
   }
 
   &__description {
-    position: fixed;
-    left: 0;
-    top: $header-height + $navigation-height * 2;
-    z-index: 10;
     @include main-padding;
-    height: $description-height;
-    width: 100%;
-    background-color: $white;
-    overflow: hidden;
+    & {
+      position: fixed;
+      left: 0;
+      top: $header-height + $navigation-height * 2;
+      z-index: 10;
+      height: $description-height;
+      width: 100%;
+      background-color: $white;
+      overflow: hidden;
+    }
 
     @media (min-width: $breakpoint-laptop-width) {
       width: 30%;

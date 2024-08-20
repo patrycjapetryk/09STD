@@ -2,18 +2,20 @@
 @import '../_mixins';
 
 .page-header {
-  width: 100%;
-  height: $navigation-height;
-  position: fixed;
-  left: 0;
-  top: $header-height;
-  z-index: 10;
-  color: $main-color;
-  font-weight: normal;
-  border-bottom: 1px solid $main-color;
-  background-color: $white;
-  display: flex;
-  align-items: center;
+  & {
+    width: 100%;
+    height: $navigation-height;
+    position: fixed;
+    left: 0;
+    top: $header-height;
+    z-index: 10;
+    color: $main-color;
+    font-weight: normal;
+    border-bottom: 1px solid $main-color;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+  }
 
   &--project {
     top: $header-height + $navigation-height;
@@ -29,13 +31,15 @@
 
   &__title {
     @include main-padding;
-    width: 100%;
-    font-size: $global-font-size-m;
-    font-weight: normal;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 1;
-    transform: translateY(2px);
+    & {
+      width: 100%;
+      font-size: $global-font-size-m;
+      font-weight: normal;
+      text-decoration: none;
+      text-transform: uppercase;
+      line-height: 1;
+      transform: translateY(2px);
+    }
   }
 
   &__link {
