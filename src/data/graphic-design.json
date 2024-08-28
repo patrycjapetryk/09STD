@@ -4,6 +4,18 @@
 
   "projects": [
     {
+      "image": "/video/graphic-design/24.mp4",
+      "title": "YSL CGI LOVESHINE",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/24.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
       "image": "/video/graphic-design/23.mp4",
       "title": "PRADA PARADOX",
       "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",

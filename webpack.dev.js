@@ -1,8 +1,8 @@
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common.js');
-var path = require('path');
+import { merge } from 'webpack-merge';
+import common from './webpack.common.js';
+import { join } from 'path';
 
-module.exports = merge(common, {
+export default merge(common, {
   devtool: 'source-map',
   mode: 'development',
 
@@ -31,7 +31,7 @@ module.exports = merge(common, {
 
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'),
+      directory: join(__dirname, 'dist'),
     },
     port: 8090,
     open: true,

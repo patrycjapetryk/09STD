@@ -24,6 +24,11 @@
       "description": "MAGDA BUTRYM DTP PRODUCTION"
     },
     {
+      "image": "./video/homepage/24.mp4",
+      "poster": "./video/homepage/24.jpg",
+      "description": "YSL CGI LOVESHINE"
+    },
+    {
       "image": "./images/homepage/4.jpg",
       "description": "JF NEWSSTAND EVENT"
     },
