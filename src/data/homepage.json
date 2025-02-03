@@ -11,6 +11,10 @@
       "description": "YSL MYSLF AR VIDEO"
     },
     {
+      "image": "./video/homepage/3_CAROLINA_HERERA_AR.mp4",
+      "description": "CAROLINA HERERA AR"
+    },
+    {
       "image": "./images/homepage/1.jpg",
       "description": "LINDA TOL X SIMPLE"
     },
@@ -31,6 +35,10 @@
     {
       "image": "./images/homepage/4.jpg",
       "description": "JF NEWSSTAND EVENT"
+    },
+    {
+      "image": "./video/homepage/9_CLINIQUE_AR.mp4",
+      "description": "CLINIQUE AR"
     },
     {
       "image": "./video/homepage/5.mp4",
