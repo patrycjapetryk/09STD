@@ -3,6 +3,18 @@
   "description": "Creative direction & strategy, Scouting, Briefing, Negotiations, Cooperation & Strategy Execution, Content Production, Relations, Tracking, Report.",
   "projects": [
     {
+      "image": "/video/influencers/1.mp4",
+      "title": "JULIA WIENIAWA X CAROLINA HERRERA",
+      "description": "Creative direction & strategy, Scouting, Briefing, Negotiations, Cooperation & Strategy Execution, Content Production, Relations, Tracking, Report.",
+      "photos": [
+        {
+          "image": "/video/influencers/1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
       "image": "/images/influencers/1.jpg",
       "title": "LINDA TOL X SIMPLE",
       "description": "Creative direction & strategy, Scouting, Briefing, Negotiations, Cooperation & Strategy Execution, Content Production, Relations, Tracking, Report.",

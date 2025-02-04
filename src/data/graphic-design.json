@@ -4,6 +4,42 @@
 
   "projects": [
     {
+      "image": "/video/graphic-design/1.mp4",
+      "title": "CAROLINA HERERA AR",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/1.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/graphic-design/2a.mp4",
+      "title": "DR.JART+ MAGAZINE ",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/2a.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/graphic-design/3.mp4",
+      "title": "CLINIQUE AR",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
+      "photos": [
+        {
+          "image": "/video/graphic-design/3.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
       "image": "/video/graphic-design/24.mp4",
       "title": "YSL CGI LOVESHINE",
       "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production.",
@@ -207,6 +243,18 @@
       "photos": [
         {
           "image": "/video/graphic-design/12.mp4",
+          "size": "large"
+        }
+      ]
+    },
+
+    {
+      "image": "/video/graphic-design/19a.mp4",
+      "title": "SPRANDI MURAL",
+      "description": "Key Visuals for Campaign, Digital Advertising, BTL + ATL, 3D Graphic Design, Advertorials, DTP Production, Branding, Animation, HTML Production. ",
+      "photos": [
+        {
+          "image": "/video/graphic-design/19a.mp4",
           "size": "large"
         }
       ]
